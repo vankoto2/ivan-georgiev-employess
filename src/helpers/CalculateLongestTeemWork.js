@@ -89,9 +89,8 @@ const CalculateLongestTeemWork = (array) => {
   };
 
   console.table(answer);
-  DataGridDemo(answer)
-  return (answer)
+  DataGridDemo(answer);
+  return (answer);
 };
-
 
 export default (CalculateLongestTeemWork);

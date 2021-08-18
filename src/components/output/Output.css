@@ -2,10 +2,10 @@
     display:none !important;
 }
 
-.data-grid-container {
+.super-app-theme--header {
     height: 150px; 
     width: 40%; 
     margin: 25px auto;
-    background-color: white;
+    background-color: black;
     padding: 20px;
 }
