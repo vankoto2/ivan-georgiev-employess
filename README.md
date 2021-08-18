@@ -4,11 +4,11 @@
 
 First you need to install the node_modules. Just write in the project directory, in the terminal 'npm install' and press Enter.
 
-###npm install
+### npm install
 
 In the project directory, in the terminal you need to run:
 
-###npm run start
+### npm run start
 
 Runs the app in the development mode.
 Automatically opens http://localhost:3000 to view it in the browser.
