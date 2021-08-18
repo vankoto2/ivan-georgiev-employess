@@ -87,5 +87,7 @@ const calculateLongestTeemWork = (array) => {
   };
 
   console.table(answer);
+  return answer;
+  
 };
 export default (calculateLongestTeemWork);

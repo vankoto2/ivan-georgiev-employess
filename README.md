@@ -20,8 +20,8 @@ In this app you can compare different workers and projects to see the two team m
 ## How to use
 
 Click on the button. Chose a file (.txt or .json).
-The file formated: Employe ID, Project ID, Date when started working, Date when ended working on the project
-Every iput is separated by space and commer ( ,)
+The file formated: Employe ID, Project ID, Date when started working, Date when ended working on the project.
+Every iput is separated by space and commer ( ,).
 If you whant the date to be from today you simply write NULL on the date.
 Date Input can be: ISO Date, Short Date, Long Date.
 Every new empl has to be on a new line.

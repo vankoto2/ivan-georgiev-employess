@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { InputFile, addFile } from './components/Input';
+import DataGridDemo from './components/output/Output'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <h1>Search for the two team members that worked longest on a sigle projects together</h1>
 
       <InputFile add={addFile} />
+      <DataGridDemo />
     </div>
   );
 }
