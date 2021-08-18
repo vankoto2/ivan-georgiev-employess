@@ -27,6 +27,7 @@ Date Input can be: ISO Date, Short Date, Long Date.
 Every new empl has to be on a new line.
 
 Example for the file:
+
 1, 12, 2013-11-01, 2014-01-05<br />
 2, 13, 2013-11-01, 2013-11-02<br />
 3, 10, 2012-05-16, NULL<br />
