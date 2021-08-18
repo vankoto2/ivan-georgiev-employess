@@ -7,30 +7,39 @@ function DataGridDemo(answer) {
 let obj = answer;
 
 const columns = [
-    { field: 'id', headerName: 'ID', width: 90 },
+    { field: 'id', headerName: 'ID', width: 200 },
     {
         field: 'firstEmplID',
         headerName: 'firstEmplID',
-        width: 150,
+        width: 200,
         editable: true,
+        headerClassName: 'super-app-theme--header',
+        headerAlign: 'center',
     },
     {
         field: 'secondEmplID',
         headerName: 'secondEmplID',
-        width: 150,
+        width: 200,
         editable: true,
+        headerClassName: 'super-app-theme--header',
+        headerAlign: 'center',
     },
     {
         field: 'projectID',
         headerName: 'IprojectIDD',
-        width: 150,
+        width: 200,
+        editable: true,
+        headerClassName: 'super-app-theme--header',
+        headerAlign: 'center',
     },
     {
         field: 'daysWorkedTogether',
         headerName: 'daysWorkedTogether',
         type: 'number',
-        width: 150,
+        width: 200,
         editable: true,
+        headerClassName: 'super-app-theme--header',
+        headerAlign: 'center',
     },
 
 ];
@@ -46,7 +55,7 @@ const rows = [
 ];
 
 //render the table
-    ReactDOM.render(<div style={{ height: 400, width: '100%' }}>
+    ReactDOM.render(<div  className="data-grid-container" style={{ height: 400, width: '100%' }}>
     <DataGrid
         rows={rows}
         columns={columns}
