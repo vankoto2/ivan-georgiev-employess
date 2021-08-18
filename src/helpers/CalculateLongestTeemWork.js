@@ -3,7 +3,7 @@ const projects = [];
 
 /**
  *calculateLongestTeemWork() returns object firstEmplID, secondEmplID, projectID, daysWorkedTogether
- * *the two workers who worked togeder on a project
+ * the two workers who worked togeder on a project
  */
 const calculateLongestTeemWork = (array) => {
   const tempArray = [...array];
@@ -86,6 +86,6 @@ const calculateLongestTeemWork = (array) => {
     daysWorkedTogether: mostTimeWorkedTogether[0].daysWorked + mostTimeWorkedTogether[1].daysWorked,
   };
 
-  console.log(answer);
+  console.table(answer);
 };
 export default (calculateLongestTeemWork);

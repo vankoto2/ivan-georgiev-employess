@@ -1,7 +1,7 @@
 import calculateLongestTeemWork from './CalculateLongestTeemWork';
 /**
  * timeWorked() returns the number of days worked for evry inline;
- * * converts the data to days worked;
+ * converts the data to days worked;
  */
 const timeWorked = (allReadyData) => {
   // empProjTime array of emplID, ProjectID and days spend on the project

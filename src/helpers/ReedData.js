@@ -1,6 +1,6 @@
 /**
  * readyData() returns an array;
- * * converts the data to be easy to use;
+ *  converts the data to be easy to use;
  */
 const readyData = (lines) => {
   const arrayInfo = [];

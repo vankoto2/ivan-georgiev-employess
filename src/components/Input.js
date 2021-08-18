@@ -5,7 +5,7 @@ import timeWorked from '../helpers/CalculeteTimeWorked';
 const InputFile = (props) => (
   <div className="input-container">
     <form className="upload-file-form">
-      <h1>Add File</h1>
+      <h3>Add File</h3>
       <input type="file" name="file" onChange={props.add} />
     </form>
 
