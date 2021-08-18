@@ -1,5 +1,4 @@
-import { GridComponent } from '@syncfusion/ej2-react-grids'
-import DataGridDemo from '../components/output/Output'
+import DataGridDemo from '../components/output/Output';
 
 const test = [];
 const projects = [];

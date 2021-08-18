@@ -1,8 +1,6 @@
 import React from 'react';
 import readyData from '../helpers/ReedData';
 import timeWorked from '../helpers/CalculeteTimeWorked';
-import DataGridDemo from './output/Output'
-
 
 const InputFile = (test) => (
   <div className="input-container">

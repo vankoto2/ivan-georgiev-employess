@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import { InputFile, addFile } from './components/Input';
-import DataGridDemo from './components/output/Output'
 
 function App() {
   return (

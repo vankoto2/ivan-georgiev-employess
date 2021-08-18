@@ -5,15 +5,7 @@ import ReactDOM from "react-dom";
 function DataGridDemo(answer) {
 
 let obj = answer;
-if (obj == undefined) {
-    console.log('vliza');
-    obj = {
-        firstEmplID: 0,
-        secondEmplID: 0,
-        projectID: 0,
-        daysWorkedTogether:  0,
-      };
-}
+
 const columns = [
     { field: 'id', headerName: 'ID', width: 90 },
     {
@@ -53,6 +45,7 @@ const rows = [
     },
 ];
 
+//render the table
     ReactDOM.render(<div style={{ height: 400, width: '100%' }}>
     <DataGrid
         rows={rows}
