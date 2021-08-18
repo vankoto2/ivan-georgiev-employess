@@ -1,8 +1,19 @@
 import * as React from 'react';
 import { DataGrid } from '@material-ui/data-grid';
-import calculateLongestTeemWork from '../../helpers/CalculateLongestTeemWork'
+import ReactDOM from "react-dom";
 
-const obj = calculateLongestTeemWork;
+function DataGridDemo(answer) {
+
+let obj = answer;
+if (obj == undefined) {
+    console.log('vliza');
+    obj = {
+        firstEmplID: 0,
+        secondEmplID: 0,
+        projectID: 0,
+        daysWorkedTogether:  0,
+      };
+}
 const columns = [
     { field: 'id', headerName: 'ID', width: 90 },
     {
@@ -42,17 +53,13 @@ const rows = [
     },
 ];
 
- function DataGridDemo() {
-    return (
-        <div style={{ height: 400, width: '100%' }}>
-            <DataGrid
-                rows={rows}
-                columns={columns}
-                pageSize={5}
-                rowsPerPageOptions={[5]}
-            />
-        </div>
-    );
+    ReactDOM.render(<div style={{ height: 400, width: '100%' }}>
+    <DataGrid
+        rows={rows}
+        columns={columns}
+        rowsPerPageOptions={[5]}
+    />
+</div>, document.getElementById('answer'));
 }
 
 export default (DataGridDemo);

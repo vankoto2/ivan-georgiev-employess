@@ -1,3 +1,6 @@
+import { GridComponent } from '@syncfusion/ej2-react-grids'
+import DataGridDemo from '../components/output/Output'
+
 const test = [];
 const projects = [];
 
@@ -5,7 +8,7 @@ const projects = [];
  *calculateLongestTeemWork() returns object firstEmplID, secondEmplID, projectID, daysWorkedTogether
  * the two workers who worked togeder on a project
  */
-const calculateLongestTeemWork = (array) => {
+const CalculateLongestTeemWork = (array) => {
   const tempArray = [...array];
 
   array.forEach((element) => {
@@ -87,7 +90,9 @@ const calculateLongestTeemWork = (array) => {
   };
 
   console.table(answer);
-  return answer;
-  
+  DataGridDemo(answer)
+  return (answer)
 };
-export default (calculateLongestTeemWork);
+
+
+export default (CalculateLongestTeemWork);

@@ -1,18 +1,21 @@
 import React from 'react';
 import readyData from '../helpers/ReedData';
 import timeWorked from '../helpers/CalculeteTimeWorked';
+import DataGridDemo from './output/Output'
 
-const InputFile = (props) => (
+
+const InputFile = (test) => (
   <div className="input-container">
     <form className="upload-file-form">
-      <h3>Add File</h3>
-      <input type="file" name="file" onChange={props.add} />
+      <h1>Add File</h1>
+      <input type="file" name="file" onChange={test.add} />
     </form>
 
   </div>
 );
 
 const addFile = (e) => {
+  e.preventDefault();
   const fileList = e.target.files;
   const fileReader = new FileReader();
   fileReader.onload = () => {
